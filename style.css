@@ -478,7 +478,11 @@ input::placeholder, textarea::placeholder, select::placeholder {
     gap: 10px;
     margin-bottom: 20px;
 }
-
+.art-style-option[data-style="tensorLora"] {
+  background: linear-gradient(to right, #3a0ca3, #7209b7);
+  color: white;
+  font-weight: bold;
+}
 .art-style-option {
     padding: 10px;
     border-radius: 8px;
