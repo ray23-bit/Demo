@@ -286,9 +286,7 @@ if (styleKeywordsInput.value.trim()) {
                     break;
             
                 case 'tensorLora':
-                    fullPrompt += ', tensor lora style, neural layers, abstract AI patterns, machine learning brushwork, generative textures, latent diffusion strokes,inspired by Tensor LoRA style highly detailed surreal biomechanical horror,intricate alien structures, ultra complex patterns, biomech fusion
-in the style of H.R. Giger, Alex Grey, Zdzisław Beksiński,
-glowing organic systems, sci-fi abstraction, tentacles and skulls';
+                    fullPrompt += ', tensor lora style, neural layers, abstract AI patterns, machine learning brushwork, generative textures, latent diffusion strokes,inspired by Tensor LoRA style highly detailed surreal biomechanical horror,intricate alien structures, ultra complex patterns, biomech fusion';
                     break;}
             
             // Enhanced negative prompt with default values
