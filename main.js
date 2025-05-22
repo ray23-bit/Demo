@@ -288,6 +288,8 @@ if (styleKeywordsInput.value.trim()) {
                 case 'tensorLora':
                     fullPrompt += ', tensor lora style, neural layers, abstract AI patterns, machine learning brushwork, generative textures, latent diffusion strokes,inspired by Tensor LoRA style highly detailed surreal biomechanical horror,intricate alien structures, ultra complex patterns, biomech fusion';
                     break;}
+                
+                fullPrompt += ', inspired by Tensor LoRA, inspired by Midjourney, inspired by stabledifusion, inspired by Dalle 3, inspired by LoRA, inspired by Bing Image Creator, inspired by Microsoft Designer';
             
             // Enhanced negative prompt with default values
             let fullNegativePrompt = negativePrompt.value.trim() || "blurry, lowres, bad anatomy, bad hands, text, error, missing fingers, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, deformed";
